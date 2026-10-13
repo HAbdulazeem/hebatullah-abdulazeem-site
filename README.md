@@ -1,6 +1,6 @@
 # Hebatullah Abdulazeem — Personal Website
 
-Personal academic portfolio website for Hebatullah Abdulazeem, MD, MSc.
+Personal academic portfolio website for Hebatullah Abdulazeem, MBBCh, MSc.
 
 Built as a static single-page site. Deployed via Cloudflare Pages.
 
@@ -24,4 +24,4 @@ Push to the `main` branch of the GitHub repo. Cloudflare Pages auto-deploys from
 
 ## Updating Publications
 
-Publications are fetched live from ORCID when the page loads, with a static fallback list. To update the fallback list, edit the `fallbackPubs` array in `index.html`.
+Selected publications are a curated static list. To update it, edit the `pubs` array in `index.html` (each entry has `tags`: `digital`, `clinical`, `first`). The full list lives on ORCID and Google Scholar.
